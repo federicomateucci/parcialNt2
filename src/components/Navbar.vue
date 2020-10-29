@@ -29,7 +29,7 @@
             </router-link>
           </li>
          <li class="nav-item">
-            <router-link to="/choice">
+            <router-link to="/preguntas">
               <a class="nav-link" href="#">choice</a>
             </router-link>
           </li>

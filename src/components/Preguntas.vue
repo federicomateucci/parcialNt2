@@ -18,8 +18,8 @@
           v-for="(pregunta, index) in preguntas"
           :key="index"
         >
-       <td>{{pregunta}}</td>
-          
+       <td>{{pregunta.pregunta}}</td>
+          <td>{{pregunta.respuestas}}</td>
         </tr>
      </tbody>
       </table>
