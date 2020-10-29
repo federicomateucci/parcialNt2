@@ -121,7 +121,7 @@ export default {
     async sendForm() {
       this.$v.$touch();
       if (!this.$v.invalid) {
-        let form = this.f;
+        let form = this.$v.f.$model;
         console.log(form);
         await this.sendFormToAxios(form);
         this.f = this.resetCells();
